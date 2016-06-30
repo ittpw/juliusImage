@@ -1,0 +1,6 @@
+
+実行用コマンド：
+padsp ./julius/julius -C fast.jconf -input mic -charconv EUC-JP UTF-8 | tee JuliusResult.txt 
+
+
+teeコマンドをパイプすれば、リダイレクトせずに、出力結果をテキストとコマンドラインに出力できる。
